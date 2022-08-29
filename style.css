@@ -1,0 +1,33 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(src/HelveticaNeue.ttc);
+}
+*{
+    font-family: HelveticaNeue;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+	place-items: center
+}
+.header-firstpage{
+    margin: 4%;
+}
+.button-firstpage{
+    margin-top: 7%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color:#ffffff;
+    width: 20%;
+    height: 5.5vh;
+    
+    background: #62A1EB;
+    border-color: #62A1EB;
+    border-radius: 8px;    
+}
+#button2{
+    margin-top: 2%;
+}
