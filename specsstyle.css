@@ -1,0 +1,82 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(src/HelveticaNeue.ttc);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+.round__button{
+    position:absolute;
+    left: 4vw;
+    top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background:#D9D9D9;
+    border: solid 1px #000000 ;
+    border-radius: 50%;
+    font-size: 1.3rem;    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6));    
+}
+.button__img{
+    background:#D9D9D9;
+}
+.header__text{
+    display: inline-block;
+    position: absolute;
+    width: fit-content;
+    top: 8vh;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #232323;   
+}
+.text__outline{
+    position: absolute;
+    width: 9vw;
+    top: 11vh;
+    left: 36vw;
+    border-bottom: solid 2px #000000;
+}
+#text1{
+    left: 35vw;
+}
+#text2{
+    left: 50vw;
+}
+body{
+    position: relative;
+    width: auto;
+    height: 1327px;
+    background: #F6F6F6;
+}
+form{
+    position: absolute;
+    left: 18vw;
+    top: 14vh;
+    border: solid 2px #ffffff ;
+    border-radius: 20px;
+    width: 1226px;
+    height: 960px;
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+.info__logo{
+    position: absolute;
+    left: 47vw;
+    top: 90%;
+    width: 85px;
+    height: 85px;
+    bottom: 0;
+}

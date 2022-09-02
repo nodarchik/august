@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="infostyle2.css">
+    <title>REDBERRY</title>
+</head>
+<body>
+    <a href="index.html" class="round__button"><img class="button__img" src="src/Vector.png"></a>
+    <div class="header__text" id="text1">თანამშრომლის ინფო</div>
+    <div class="header__text" id="text2">ლეპტოპის მახასიათებლები</div>
+    <div class="text__outline"></div>
+    <form action="submit" class="form">
+        <div class="name">
+            <div class="name__header">სახელი</div>
+            <input class="name__input" type="text" name="lname" placeholder="გრიშა">
+            <div class="name__footer">მინიმუმ 2 სიმბოლო, ქართული ასოები</div>
+        </div>    
+        <div class="lname">
+            <div class="lname__header">გვარი</div>
+            <input class="lname__input"type="text" name="lname" placeholder="ბაგრატიონი">
+            <div class="lname__footer">მინიმუმ 2 სიმბოლო, ქართული ასოები</div>
+        </div>
+        <div class="team">
+            <select class="team__input" name="team">
+                <option class="team__dev" value="დეველოპმენტი">დეველოპმენტი</option>
+                <option class="team__hr" value="HR">HR</option>
+                <option class="team__sale" value="გაყიდვები">გაყიდვები</option>
+                <option class="team__design" value="დიზაინი">დიზაინი</option>
+                <option class="team__market" value="მარკეტინგი">მარკეტინგი</option>
+            </select>
+        </div>  
+        <div class="position">  
+            <select class="position__input" name="position">
+                <option class="position__intern" value="სტაჟიორი">სტაჟიორი</option>
+                <option class="position__junior" value="ჯუნიორი">ჯუნიორი</option>
+                <option class="position__mid" value="მიდი">მიდი</option>
+                <option class="position__senior" value="სენიორი">სენიორი</option>
+                <option class="position__lead" value="ლიდი">ლიდი</option>
+            </select>
+        </div> 
+        <div class="email">
+            <div class="email__header">მეილი</div>
+            <input class="email__input" type="text" placeholder="grish777@redberry@ge">
+            <div class="email__footer">უნდა მთავრდებოდეს @redberry.ge-ით</div>
+        </div>  
+        <div class="phone">
+            <div class="phone__header">ტელეფონის ნომერი</div>
+            <input class="phone__input" type="text" placeholder="+995 598 00 07 01">
+            <div class="phone__footer">უნდა აკმაყოფილებდეს ქართული მობილური ნომრის ფორმატს</div>
+        </div>  
+        <div>
+            <a class="info__button" href="specs.html">შემდეგი</a>
+        </div>
+    </form>
+    <div>
+        <img class="info__logo" src="src/redberylogo.png" alt="redberrylogo">
+    </div>
+</body>
+</html>
