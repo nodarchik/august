@@ -9,11 +9,95 @@
 </head>
 <body>
     <a href="index.html" class="round__button"><img class="button__img" src="src/Vector.png"></a>
-    <div class="header__text" id="text1">თანამშრომლის ინფო</div>
-    <div class="header__text" id="text2">ლეპტოპის მახასიათებლები</div>
+    <a class="header__text" id="text1" href="info.html">თანამშრომლის ინფო</a>
+    <a class="header__text" id="text2" href="specs.html">ლეპტოპის მახასიათებლები</a>
     <div class="text__outline"></div>
     <form action="submit" class="form">
+        <div class="specs__image" >
+            <label class="image__label" for="img">ჩააგდე ან ატვირთე ლეპტოპის ფოტო</label>
+            <input class="image__input" type="file" id="img">
+            <input class="image__button" type="submit" value="ატვირთე">
+        </div>
+        <div class="pcname">
+            <div class="pcname__header">ლეპტოპის სახელი</div>
+            <input class="pcname__input" type="text" name="pcname" placeholder="HP">
+            <div class="pcname__footer">ლათინური ასოები, ციფრები, !@#$%^&*()_+=</div>
+        </div>    
+        <div class="pcbrand">
+            <select class="pcbrand__input" name="pcbrand">
+                <option class="pcbrand__dell" value="dell">Dell</option>
+                <option class="pcbrand__hp" value="hp">HP</option>
+                <option class="pcbrand__lenovo" value="lenovo">Lenovo</option>
+                <option class="pcbrand__asus" value="asus">Asus</option>
+                <option class="pcbrand__acer" value="acer">Acer</option>
+            </select>
+        </div>  
 
+        <div class="pc__outline"></div>
+
+        <div class="cpu">
+            <select class="cpu__input" name="cpu">
+                <option class="cpu__dell" value="Core5">Intel Core i5</option>
+                <option class="cpu__hp" value="Core7">Intel core i5</option>
+                <option class="cpu__lenovo" value="M1">Apple M1</option>
+                <option class="cpu__asus" value="Ryzen5">Amd Ryzen 5</option>
+                <option class="cpu__acer" value="Ryzen7">Amd Ryzen 7</option>
+            </select>
+        </div>  
+        <div class="core">
+            <div class="core__header">CPU-ს ბირთვი</div>
+            <input class="core__input" type="text" name="core" placeholder="14">
+            <div class="core__footer">მხოლოდ ციფრები</div>
+        </div>   
+        <div class="thread">
+            <div class="thread__header">CPU-ს ნაკადი</div>
+            <input class="thread__input" type="text" name="thread" placeholder="365">
+            <div class="thread__footer">მხოლოდ ციფრები</div>
+        </div>   
+        <div class="ram">
+            <div class="ram__header">ლეპტოპის RAM (GB)</div>
+            <input class="ram__input" type="text" name="ram" placeholder="16">
+            <div class="ram__footer">მხოლოდ ციფრები</div>
+        </div>   
+        <div class="storage">
+            <div class="storage__type">მეხსიერების ტიპი</div>
+            <span class="storage__ssd">
+                <input type="radio" id="ssd" name="storage" value="ssd">
+                <label class="storage__label" for="ssd">SSD</label>
+            </span>
+            <span class="storage__hdd">
+                <input type="radio" id="hdd" name="storage" value="hdd">
+                <label class="storage__label" for="hdd">HDD</label>
+            </span>
+        </div>
+
+        <div class="storage__outline"></div>
+
+        <div class="date">
+            <div class="date__header">შეძენის რიცხვი (არჩევითი)</div>
+            <input class="date__input" type="text" name="date" placeholder="დდ / თთ / წწწწ">
+        </div>  
+        <div class="price">
+            <div class="price__header">ლეპტოპის ფასი</div>
+            <input class="price__input" type="text" name="price" placeholder="0000">
+            <div class="price__footer">მხოლოდ ციფრები</div>
+        </div>  
+        <div class="condition">
+            <div class="condition__type">ლეპტოპის მდგომარეობა</div>
+            <span class="condition__new">
+                <input type="radio" id="new" name="condition" value="new">
+                <label class="condition__label" for="ssd">ახალი</label>
+            </span>
+            <span class="condition__used">
+                <input type="radio" id="used" name="condition" value="used">
+                <label class="condition__label" for="used">მეორადი</label>
+            </span>
+        </div>
+
+        <div>
+            <a class="button__back" href="info.html">უკან</a>
+             <button class="button__save" type="submit">დამახსოვრება</button>
+        </div>
     </form>
     <div>
         <img class="info__logo" src="src/redberylogo.png" alt="redberrylogo">

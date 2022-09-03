@@ -34,6 +34,7 @@
     font-weight: 700;
     font-size: 1.2rem;
     color: #232323;   
+    text-decoration: none;
 }
 .text__outline{
     position: absolute;
@@ -366,15 +367,6 @@ team__market{
     order: 4;
     flex-grow: 0;
 }
-
-
-
-
-
-
-
-
-
 .info__button{
     display: flex;
     justify-content: center;
